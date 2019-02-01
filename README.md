@@ -4,7 +4,6 @@ Html과 css를 이용하여 만든 웹사이트입니다
 
 * 2018년 11월 ~ 12월
 
-##  이 프로젝트의 **Tech Stack**
 ```dart
 jQuery / javascript / css3 / html5 / Bootstrap /
 ```
