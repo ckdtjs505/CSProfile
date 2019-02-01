@@ -1,4 +1,4 @@
-# [**CSFrofile**](https://ckdtjs505.github.io/WebSite_myfrofile/)
+# [**CSFrofile**](https://ckdtjs505.github.io/CSFrofile/)
 
 간단한 개인 소개와 이력이 있는 정적 웹사이트입니다
 
