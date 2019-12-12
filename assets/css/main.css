@@ -43,6 +43,11 @@ h3 {
   background-color: rgba(0, 0, 0, 0.1);
   border: 0;
 }
+.masthead-content {
+  display: block;
+  margin: auto;
+  width: 900px;
+}
 .masthead h1 {
   margin-top: 90px;
   margin-bottom: 20px;
@@ -132,6 +137,9 @@ h3 {
 @media screen and (max-width: 760px) {
   .header h1 {
     font-size: x-large;
+  }
+  .masthead-content {
+    width: auto;
   }
   .masthead-content h1 {
     width: 95%;
