@@ -5,6 +5,7 @@
   <title>CS Frofile</title>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9444b6d8a1.js" crossorigin="anonymous"></script>
 
   <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
   <style>
@@ -70,8 +71,49 @@
       border: 1px rgba(255,255,255,0.4) solid;
     }
 
-
-
+    /* project */
+    .site-container {
+      margin-bottom: 4rem;
+    }
+    .container-h2{
+      margin: 1.5rem 0 2rem 0;
+      font-size: 2rem;
+      font-weight: 1000;
+    }
+    .project {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .project-each {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      justify-content: space-between;
+    }
+    .project-each p {
+      max-width: 25rem;
+      margin: auto;
+    }
+    .button .button-icon {
+      margin: 0 1rem 0 1rem;
+      font-size: 1.2rem;
+      color: black;
+    }
+    .button .button-icon:hover {
+      color:rgba(31, 36, 41, 0.8);
+    }
+    .button .button-view {
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      background-color: rgba(31, 36, 41);
+      border: 0;
+      border-radius: 0.4rem;
+      font-size: 1rem;
+      color: white;
+      margin: auto;
+    }
+    .button .button-view:hover {
+      background-color:rgba(31, 36, 41, 0.8);
+    }
     /* footer */
     .footer {
       color: white;
@@ -107,16 +149,37 @@
         </div>
       </div>
       <div class="site-container">
-        <div class="site-container-content">
-          site-container
-        </div>
+        <section class="site-container-content">
+          <h2 class="container-h2">Projects</h2>
+          <section class="project">
+            <div class="project-each">
+              <h2>🎫 Momentum</h2>
+              <p>This website has duplicated Google extension momentum. </p>
+              <div class="button">
+                <a class="button-icon" href="https://github.com/ckdtjs505/Momentum"><i class="fab fa-github"></i></a>
+                <a class="button-view" href="https://ckdtjs505.github.io/Momentum/" > View</a>
+              </div>
+            </div>
+          </section>
+          <section class="project">
+              <div class="project-each">
+                <h2>🌌 New space</h2>
+                <p> This website is for newspace education </p>
+                <div class="button">
+                  <a class="button-icon" href="https://github.com/ckdtjs505/new-space"><i class="fab fa-github"></i></a>
+                  <a class="button-view" href="https://ckdtjs505.github.io/new-space/" > View</a>
+                </div>
+              </div>
+            </section>
+        </section>
+        
       </div>
     </main>
   </div>
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
-      &copy; Designed from scratch by changsun-oh @ 2019 All rights reserved.
+      &copy; Designed by changsun-oh @ 2019 All rights reserved.
     </div>
   </footer>
 
