@@ -16,8 +16,14 @@ function createProject(project){
         <p> ${project.description} </p>
         <div class="button">
             <a class="button-icon" href="${project.github}"><i class="fab fa-github"></i></a>
-            <a class="button-view" href="${project.url}"> View</a>
-        </div>
+            <a class="button-view" href="${project.url}"> 
+                <div class="tooltip"> View
+                    <span class="tooltiptext"> 실행하는데 시간이 <br> 걸릴 수 있습니다 </span>
+                </div>
+            </a>
+
+           
+            </div>
         </div>
     </section>
     `
